@@ -19,17 +19,17 @@ settings;
 
 export default function App() {
     return (
-        <GestureHandlerRootView style={styles.container}>
-            <SafeAreaProvider initialMetrics={initialWindowMetrics}>
-                <RootSiblingParent>
-                    <ErrorBoundary>
+        <ErrorBoundary>
+            <GestureHandlerRootView style={styles.container}>
+                <SafeAreaProvider initialMetrics={initialWindowMetrics}>
+                    <RootSiblingParent>
                         <StoreProvider store={store}>
                             <AppNavigator />
                         </StoreProvider>
-                    </ErrorBoundary>
-                </RootSiblingParent>
-            </SafeAreaProvider>
-        </GestureHandlerRootView>
+                    </RootSiblingParent>
+                </SafeAreaProvider>
+            </GestureHandlerRootView>
+        </ErrorBoundary>
     );
 }
 

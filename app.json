@@ -1,7 +1,7 @@
 {
     "expo": {
-        "name": "Badda Student",
-        "slug": "badda-student",
+        "name": "Bada Student",
+        "slug": "bada-student",
         "version": "1.0.0",
         "orientation": "default",
         "userInterfaceStyle": "light",
@@ -17,7 +17,7 @@
         "assetBundlePatterns": ["**/*"],
         "ios": {
             "buildNumber": "1",
-            "bundleIdentifier": "com.zetasolutionsonline.badda",
+            "bundleIdentifier": "com.zetasolutionsonline.bada",
             "supportsTablet": true,
             "infoPlist": {
                 "CFBundleAllowMixedLocalizations": true
@@ -26,7 +26,7 @@
         "android": {
             "versionCode": 2,
             "softwareKeyboardLayoutMode": "resize",
-            "package": "com.zetasolutionsonline.badda",
+            "package": "com.zetasolutionsonline.bada",
             "jsEngine": "hermes"
         },
         "web": {
@@ -34,8 +34,7 @@
         },
         "plugins": ["sentry-expo"],
         "extra": {
-            "eas": {
-             }
+            "eas": {}
         }
     }
 }
